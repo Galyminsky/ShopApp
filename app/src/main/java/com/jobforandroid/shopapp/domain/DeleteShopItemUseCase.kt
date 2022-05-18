@@ -1,8 +1,9 @@
 package com.jobforandroid.shopapp.domain
 
-class DeleteShopItemUseCase {
+class DeleteShopItemUseCase (private val shopListRepository: ShopListRepository) {
 
     fun deleteShopItem(shopItem : ShopItem) {
-
+        shopListRepository.deleteShopItem(shopItem)
     }
+
 }
