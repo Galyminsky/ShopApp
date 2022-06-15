@@ -1,4 +1,4 @@
-# ShopApp
+# ShopApp (Kotlin)
 ShopApp
 
 Курс "Android профессиональный уровень (Kotlin)"
