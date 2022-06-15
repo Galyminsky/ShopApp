@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ShopApp</string>
     <string name="add_new_shop_item">Add new shop Item</string>
     <string name="meat">Meat</string>
     <string name="_1">1</string>
