@@ -16,7 +16,6 @@ import com.jobforandroid.shopapp.domain.ShopItem
 class ShopItemActivity : AppCompatActivity() {
 
     private lateinit var viewModel: ShopItemViewModel
-
     private lateinit var tilName: TextInputLayout
     private lateinit var tilCount: TextInputLayout
     private lateinit var edName: EditText
@@ -155,8 +154,6 @@ class ShopItemActivity : AppCompatActivity() {
             intent.putExtra(EXTRA_SHOP_ITEM_ID, shopItemId)
             return intent
         }
-
     }
-
 }
 
